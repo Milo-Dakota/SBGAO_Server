@@ -1,0 +1,34 @@
+### .NET / C# 核心忽略项 ###
+bin/
+obj/
+
+# 编译输出和临时文件
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+### IDE (Visual Studio / VS Code) 忽略项 ###
+.vscode/
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+### NuGet 包忽略项 ###
+packages/
+*.nupkg
+# 如果使用 dotnet restore 产生的临时文件
+project.lock.json
+project.fragment.lock.json
+
+### 操作系统临时文件 ###
+Thumbs.db
+.DS_Store
+
+### 这里的项目特定项 ###
+# 如果你的 Network 或 System 文件夹下有自动生成的二进制文件，
+# 也可以在这里添加，但通常这些是源码，不应忽略。
